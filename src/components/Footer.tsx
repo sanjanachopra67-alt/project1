@@ -26,11 +26,11 @@ const Footer = () => (
         <div>
           <h4 className="font-display font-semibold text-foreground mb-3">Connect</h4>
           <div className="flex flex-col gap-2 text-sm text-muted-foreground">
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-foreground transition-colors">
+            <a href="https://github.com/sanjanachopra67-alt" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-foreground transition-colors">
               <Github className="h-4 w-4" /> GitHub Repository
             </a>
-            <a href="mailto:developer@example.com" className="flex items-center gap-2 hover:text-foreground transition-colors">
-              <Mail className="h-4 w-4" /> developer@example.com
+            <a href="mailto:sanjanachopra67@gmail.com" className="flex items-center gap-2 hover:text-foreground transition-colors">
+              <Mail className="h-4 w-4" /> sanjanachopra67@gmail.com
             </a>
           </div>
         </div>

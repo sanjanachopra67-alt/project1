@@ -57,7 +57,7 @@ const Contact = () => (
         <div className="bg-foreground rounded-lg p-4 overflow-x-auto">
           <pre className="text-sm text-background font-mono">
 {`# Clone the repository
-git clone https://github.com/username/student-predictor.git
+git clone https://github.com/sanjanachopra67-alt/student-predictor.git
 cd student-predictor
 
 # Install Python dependencies
