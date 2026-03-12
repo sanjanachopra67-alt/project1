@@ -216,7 +216,7 @@ const Predictor = () => {
                     <p className="text-sm text-muted-foreground mb-2">Predicted Score</p>
                     <p className="text-6xl font-display font-bold text-foreground">{result.predictedScore}</p>
                     <div className={`flex items-center justify-center gap-2 mt-3 text-lg font-semibold ${levelColor}`}>
-                      {levelIcon && <span>{<result.performanceLevel === "Excellent" ? <Award className="h-5 w-5" /> : result.performanceLevel === "Good" ? <TrendingUp className="h-5 w-5" /> : result.performanceLevel === "Average" ? <CheckCircle className="h-5 w-5" /> : <AlertTriangle className="h-5 w-5" />}</span>}
+                      {result.performanceLevel === "Excellent" ? <Award className="h-5 w-5" /> : result.performanceLevel === "Good" ? <TrendingUp className="h-5 w-5" /> : result.performanceLevel === "Average" ? <CheckCircle className="h-5 w-5" /> : <AlertTriangle className="h-5 w-5" />}
                       {result.performanceLevel}
                     </div>
                     <p className="text-sm text-muted-foreground mt-2">
