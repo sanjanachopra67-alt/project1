@@ -17,9 +17,9 @@ const Contact = () => (
 
       <div className="grid md:grid-cols-2 gap-6 max-w-3xl mx-auto">
         {[
-          { icon: User, title: "Developer", text: "AI/ML Developer", sub: "Final Year B.Tech CSE Project" },
-          { icon: Github, title: "GitHub Repository", text: "github.com/username/student-predictor", link: "https://github.com" },
-          { icon: Mail, title: "Email Contact", text: "developer@example.com", link: "mailto:developer@example.com" },
+          { icon: User, title: "Developer", text: "Sanjana Chopra", sub: "ECE with AIML Student" },
+          { icon: Github, title: "GitHub Repository", text: "github.com/sanjanachopra67-alt", link: "https://github.com/sanjanachopra67-alt" },
+          { icon: Mail, title: "Email Contact", text: "sanjanachopra67@gmail.com", link: "mailto:sanjanachopra67@gmail.com" },
           { icon: FileText, title: "Documentation", text: "Full project report & methodology", link: "#" },
         ].map((item, i) => (
           <motion.div
@@ -57,7 +57,7 @@ const Contact = () => (
         <div className="bg-foreground rounded-lg p-4 overflow-x-auto">
           <pre className="text-sm text-background font-mono">
 {`# Clone the repository
-git clone https://github.com/username/student-predictor.git
+git clone https://github.com/sanjanachopra67-alt/student-predictor.git
 cd student-predictor
 
 # Install Python dependencies
